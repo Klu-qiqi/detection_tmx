@@ -1,0 +1,19 @@
+streamlit>=1.31.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=9.5.0
+pyyaml>=6.0.0
+
+# Генеративный ИИ (опционально для полной функциональности)
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Для промышленного развёртывания (опционально)
+onnxruntime-gpu>=1.15.0
+tensorrt>=8.6.0
+paho-mqtt>=1.6.0
+asyncua>=1.0.0  # Corrected from opcua-asyncio
